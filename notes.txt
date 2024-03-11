@@ -1,0 +1,64 @@
+BACKEND DEVELOPMENT 
+
+2 major components
+1> a programming language    ->  java,js ,php,golang,c++
+2> a database                -> Mongo,Mysql,postgres,sqlite
+
+-----------------------------------------------------
+
+HOW THE FULL FETCHING ROAD MAP WORKS 
+
+browsers---->api---->backend---->database(another continent)
+
+-----------------------------------------------------
+
+A JAVASCRIPT BASED BACKEND
+
+data         file          backend 
+
+->a js runtime : nodejs/deno/bun
+package.json               .env             (readme,git,int,prettier etc)
+->src 
+    index->db connects
+    app->config cookie,urlencode             
+    constants->enums,dbname
+    ->db                              actual code to connect to database
+    ->models                          data structure,schema
+    ->controllers                     methods,functions
+    ->routes                          /sigup,/login
+    ->middlewares
+    ->utils                           utilities->mails ,file upload 
+    ->more(depends)        
+
+     
+------------------------------------------------------
+
+MOMGOOSE / EXPRESS
+-> we have to create a server that will respond to the requests made by a computer or a mobile 
+-> for this we will use 2 technologies named as Express and mongoose 
+-> therefore we want that there should be someone who is continuously listening to the requests made by the client nodes 
+-> /   means home route
+-> /login   login setup
+-> we can make many types of requests namely get,post etc
+-> in first videos we will handle get requests
+
+-------------------------------------------------------
+
+MAKING AN EMPTY NODE APPLICATION
+-> this can be done using - npm init 
+
+------------------------------------------------------
+
+EXPRESS
+-> fast ,unopinionated,minimalist web framework for node js 
+
+------------------------------------------------------
+
+the ports we are defining are hard coded according to aur system 
+but when we deploy it , it is note alwas necessary that the post must be free 
+on the clients device 
+for that we will need to install dotenv
+after that make a file named .env and declare tha port variable in this file 
+
+
+
